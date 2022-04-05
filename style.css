@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(/images/blackandblue.jpg) ;
+  background-image: url(images/blackandblue.jpg) ;
    background-color: #cccccc;
   height: 500px;
   background-position: center;
@@ -54,7 +54,7 @@ body {
   box-shadow: 10px 10px 10px white;
   background-color: gold;
   font-weight: 600;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 
 input::placeholder {
