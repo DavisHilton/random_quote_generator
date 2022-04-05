@@ -6,21 +6,29 @@
 }
 
 body {
+  background-image: url(/images/blackandblue.jpg) ;
+   background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   background-color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
-
   min-height: 100vh;
 }
 
 .box {
-  background-color: rgb(4, 4, 59);
+  background-color: rgba(4, 4, 59,.8);
+  width:50%;
+
   padding-left: 60px;
   padding: 60px;
   border: lightblue 5px solid;
-  border-radius: 50px;
-  box-shadow: 15px 15px 10px gold;
+  border-radius: 50px; 
+  box-shadow: 15px 15px 10px  rgb(17, 180, 234);;
 }
 
 .box h2 {
@@ -32,7 +40,7 @@ body {
 
 }
 
-input {
+#quote_input {
   padding: 20px;
   user-select: none;
   height: 50px;
@@ -46,7 +54,7 @@ input {
   box-shadow: 10px 10px 10px white;
   background-color: gold;
   font-weight: 600;
-  margin-left: 10%;
+    margin-left: 25%;
 }
 
 input::placeholder {
@@ -71,14 +79,14 @@ input::placeholder {
   width: 150px;
   height: 50px;
   padding-top: 10px;
-  margin-left: 35%;
+  margin-left: 40%;
   border-radius: 80px;
   box-shadow: 10px 10px 10px white;
 }
 
 #btnGen:hover {
-  color: rgb(4, 4, 59);
-  background-color: lightblue;
+  color: white;
+  background-color: darkcyan;
 }
 
 input:hover {
@@ -86,8 +94,30 @@ input:hover {
   background-color: lightblue;
 }
 
+/* control how text and author output would look like*/
+#quote,
+#author{
+  color:whitesmoke;
+  display : flex;
+  font-family:Rockwell ;
+  justify-content: center;
+  align-content: center;
+  padding:1rem;
+   font-size: 20px;
+  font-weight: 600;
+}
 
+#quote{
+  width:80%;
+  text-align:center ;
+  margin: auto;
+  line-height:1.6em ;
+  padding-top: 2rem;
+}
 
+#author{
+    margin-left: 35%
+}
 
 /* //.box:hover{
     transform: rotateY(180deg);
