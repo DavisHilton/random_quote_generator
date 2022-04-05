@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+.box {
+  background-color: rgb(4, 4, 59);
+  padding-left: 60px;
+  padding: 60px;
+  border: lightblue 5px solid;
+  border-radius: 50px;
+  box-shadow: 15px 15px 10px gold;
+}
+
+.box h2 {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 36px;
+  color: gold;
+  font-family: Rockwell;
+
+}
+
+input {
+  padding: 20px;
+  user-select: none;
+  height: 50px;
+  width: 400px;
+  border-radius: 80px;
+  border: none;
+  border: 2px solid #1d7c9e;
+  outline: none;
+  font-size: 22px;
+  font-family: Rockwell;
+  box-shadow: 10px 10px 10px white;
+  background-color: gold;
+  font-weight: 600;
+  margin-left: 10%;
+}
+
+input::placeholder {
+  text-align: center;
+  font-weight: 500;
+  font-size: 26px;
+  color: rgb(4, 4, 59);
+
+}
+
+#btnGen {
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Rockwell;
+  background-color: gold;
+  color: rgb(4, 4, 59);
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 40px;
+  width: 150px;
+  height: 50px;
+  padding-top: 10px;
+  margin-left: 35%;
+  border-radius: 80px;
+  box-shadow: 10px 10px 10px white;
+}
+
+#btnGen:hover {
+  color: rgb(4, 4, 59);
+  background-color: lightblue;
+}
+
+input:hover {
+  color: rgb(4, 4, 59);
+  background-color: lightblue;
+}
+
+
+
+
+/* //.box:hover{
+    transform: rotateY(180deg);
+   
+ } */
